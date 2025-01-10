@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --gold: #FFD700;
+    --purple: #6A0DAD;
+    --green: #3B9C59;
+    --white: #FFFFFF;
+    --teal: #008080;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white);
+    color: var(--purple);
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: var(--green);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--gold);
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--teal);
+    color: var(--white);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: var(--gold);
+    color: var(--purple);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: var(--white);
+    color: var(--teal);
+    border: 2px solid var(--gold);
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+/* Logo Image */
+.logo-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 1rem;
+}
+/* Set global font styles */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #42205b; /* Deep purple from Mardi Gras palette */
+}
+
+/* Accent for tagline or special elements */
+.tagline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
